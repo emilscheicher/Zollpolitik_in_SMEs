@@ -1,0 +1,8 @@
+LIVE DEMO PULL (5 firms)
+========================
+Pulled:       2026-05-27T10:31:22.056379
+Source:       comp_global_daily.g_funda
+Firms:        100737, 016603, 024625, 014447, 017436
+Fiscal years: 2015–2024
+Rows:         50
+Columns:      444

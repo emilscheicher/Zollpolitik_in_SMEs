@@ -1,6 +1,6 @@
 .venv/
-data/raw/
 .env
+data/raw/
 references/*.pdf
 __pycache__/
 *.pyc
