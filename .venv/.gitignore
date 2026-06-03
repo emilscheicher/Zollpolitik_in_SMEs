@@ -1,9 +1,0 @@
-.venv
-.env
-data/raw/
-references/*.pdf
-__pycache__/
-*.pyc
-*.log
-*.tex
-.DS_Store
