@@ -1,30 +1,21 @@
 ## Research Question
-In welchem Ausmaß sind österreichische KMU durch die US-Zollpolitik der Trump 2.0 Administration stärker betroffen als Großunternehmen und inwiefern führt die Unternehmensgröße zu einer differenzierten Betroffenheit?
+Does capital intensity negatively affect firm performance among European SMEs, and does firm size moderate this relationship?
 
 ## Hypotheses
-Österreichische KMU sind durch die US-Zollpolitik der Trump-2.0-Administration strukturell stärker betroffen als Großunternehmen, da ihre geringeren finanziellen Reserven, die schwächere Verhandlungsposition entlang der Wertschöpfungskette und die begrenzte Fähigkeit zur Marktdiversifikation die Absorptionskapazität gegenüber externen Handelsschocks signifikant einschränken.
-
-**H0:** Capital Intensity hat keinen signifikanten Einfluss auf die finanzielle Performance (RoA) österreichischer KMU.
-
-**H1:** Capital Intensity hat einen signifikanten negativen Einfluss auf die finanzielle Performance (RoA) österreichischer KMU, da Investitionen in physische Assets durch US-Zölle verteuert werden und die Profitabilität senken.
+- H0: Capital intensity has no significant effect on RoA among Austrian SMEs.
+- H1: Capital intensity has a significant negative effect on RoA among Austrian SMEs, as investments in physical assets are made more expensive by US tariffs.
+- H2: Firm size positively moderates the capital intensity–RoA relationship.
 
 ## Variables
-### Dependent variable (Y)
-| Construct | Data Item(s) | Formula |
-|-----------|-------------|---------|
-| RoA | nicon, at | nicon / at |
-
-### Independent variable (X)
-| Construct | Data Item(s) | Formula |
-|-----------|-------------|---------|
-| Capital Intensity | capx, at | capx / at |
-
-### Controls
-| Construct | Data Item(s) | Formula |
-|-----------|-------------|---------|
-| Firm Size | at | log(at) |
-| Leverage | dltt, dlc, at | (dltt+dlc) / at |
-| Industry | naicsh | kategorisch |
+| Variable | Field(s) | Formula | Role |
+|----------------|-------------|----------------------|---------------|
+| RoA | nicon, at | nicon / at | Dependent (Y) |
+| Capital Intensity | capx, at | capx / at | Independent |
+| Cap x Size | - | cap_intensity x ln_at | H2 interaction|
+| Firm size | at | log(at) | Moderator+Ctrl|
+| Leverage | dltt, dlc, at | (dltt+dlc) / at | Control |
+| CAPX intensity | capx, at | capx / at | Control |
+| Cash ratio | che, at | che / at | Control |
 
 ## Data
 | Item | Detail |
